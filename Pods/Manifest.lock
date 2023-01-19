@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Cosmos (21.0.0)
+  - DropDown (2.3.2)
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Core (1.9.1)
+  - ImageSlideshow/SDWebImage (1.9.1):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - IQKeyboardManager (4.0.13)
+  - JDropDownAlert (1.3.0)
+  - Kingfisher (4.10.1)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SKRadioButton (1.0.3)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos (~> 21.0)
+  - DropDown (= 2.3.2)
+  - ImageSlideshow (~> 1.9.0)
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManager (~> 4.0.2)
+  - JDropDownAlert
+  - Kingfisher (~> 4.0)
+  - SDWebImage
+  - SKRadioButton
+  - Spring (from `https://github.com/trongnhan68/Spring`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - DropDown
+    - ImageSlideshow
+    - IQKeyboardManager
+    - JDropDownAlert
+    - Kingfisher
+    - SDWebImage
+    - SKRadioButton
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/trongnhan68/Spring
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: febc1fa3787b19f8dc21c48d5e7bb826ef46bb25
+    :git: https://github.com/trongnhan68/Spring
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  JDropDownAlert: fd2aec99b685cb35530283b34f36c7cb46d44170
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SKRadioButton: fe55bd1f46302f9acbdf788021085b35a4a43b79
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 7f0773c11797fea96576ff43f59826e1e5274f6f
+
+COCOAPODS: 1.9.1

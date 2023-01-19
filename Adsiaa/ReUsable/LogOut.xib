@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="LogOut" id="iN0-l3-epB" customClass="LogOut" customModule="NibFile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ijy-NE-Cyg">
+                    <rect key="frame" x="17" y="218.5" width="341" height="230"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rq7-cu-IZL">
+                            <rect key="frame" x="118" y="106" width="105" height="20"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exclamationmark.octagon.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-Gz-QAQ">
+                            <rect key="frame" x="144.5" y="30.5" width="52" height="50.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="52" id="AUg-hR-lYK"/>
+                                <constraint firstAttribute="height" constant="52" id="tbE-CP-nwN"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8MR-iv-xjV">
+                            <rect key="frame" x="78" y="139" width="185" height="17.5"/>
+                            <string key="text">You can always log in again
+
+</string>
+                            <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" red="0.52851617336273193" green="0.55655646324157715" blue="0.58156007528305054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4xS-q3-6ol">
+                            <rect key="frame" x="70.5" y="178" width="200" height="30"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ec-Ls-EZ5">
+                                    <rect key="frame" x="0.0" y="0.0" width="92.5" height="30"/>
+                                    <color key="backgroundColor" red="0.81951814889907837" green="0.81965965032577515" blue="0.81950914859771729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP5-OS-Aqt">
+                                    <rect key="frame" x="107.5" y="0.0" width="92.5" height="30"/>
+                                    <color key="backgroundColor" red="0.91097724440000005" green="0.35617208480000001" blue="0.35591667890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Log Out">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="0iT-Oy-555"/>
+                                <constraint firstAttribute="height" constant="30" id="YCD-Rh-f5o"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="5cM-sX-YLM"/>
+                        <constraint firstItem="8MR-iv-xjV" firstAttribute="top" secondItem="Rq7-cu-IZL" secondAttribute="bottom" constant="13" id="HQf-RP-jPa"/>
+                        <constraint firstItem="wFW-Gz-QAQ" firstAttribute="top" secondItem="Ijy-NE-Cyg" secondAttribute="top" constant="30" id="RST-I4-ef5"/>
+                        <constraint firstItem="wFW-Gz-QAQ" firstAttribute="centerX" secondItem="Ijy-NE-Cyg" secondAttribute="centerX" id="UCL-T9-Glc"/>
+                        <constraint firstItem="8MR-iv-xjV" firstAttribute="centerX" secondItem="Ijy-NE-Cyg" secondAttribute="centerX" id="ehf-CH-21A"/>
+                        <constraint firstItem="Rq7-cu-IZL" firstAttribute="top" secondItem="wFW-Gz-QAQ" secondAttribute="bottom" constant="24" id="gZ0-kN-yOO"/>
+                        <constraint firstItem="4xS-q3-6ol" firstAttribute="centerX" secondItem="Ijy-NE-Cyg" secondAttribute="centerX" id="hCT-zZ-wgD"/>
+                        <constraint firstItem="4xS-q3-6ol" firstAttribute="top" secondItem="8MR-iv-xjV" secondAttribute="bottom" constant="21.5" id="iou-jv-hM7"/>
+                        <constraint firstItem="Rq7-cu-IZL" firstAttribute="centerX" secondItem="Ijy-NE-Cyg" secondAttribute="centerX" id="pmq-S1-2W2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ijy-NE-Cyg" secondAttribute="trailing" constant="17" id="5gB-oi-cl3"/>
+                <constraint firstItem="Ijy-NE-Cyg" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="ebg-3Z-gOk"/>
+                <constraint firstItem="Ijy-NE-Cyg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="17" id="jFb-EB-Uq3"/>
+                <constraint firstItem="Ijy-NE-Cyg" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="oPW-mp-nSk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="BtnCancel" destination="9ec-Ls-EZ5" id="u0r-rH-1I1"/>
+                <outlet property="BtnLogout" destination="SP5-OS-Aqt" id="T4v-iy-mXb"/>
+                <outlet property="ViewPopup" destination="Ijy-NE-Cyg" id="4BH-xa-xOo"/>
+            </connections>
+            <point key="canvasLocation" x="128.80000000000001" y="142.57871064467767"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="exclamationmark.octagon.fill" catalog="system" width="128" height="112"/>
+    </resources>
+</document>
